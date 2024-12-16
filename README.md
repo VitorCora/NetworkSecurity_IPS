@@ -116,6 +116,56 @@ If you Cloud One looks something like the following you are good to go
 
 <img width="934" alt="image" src="https://github.com/user-attachments/assets/3f16c132-cb57-49aa-b5e7-fc61f40914ff" />
 
+## Deploying the Network Security Endpoints
+
+Log into Trend Cloud One
+
+Look for the service Network Security
+
+On Network Security,
+ look for Network
+
+On Network, 
+    look for Hosted Infrastructure
+
+<img width="485" alt="image" src="https://github.com/user-attachments/assets/d5bb8e20-8ae4-4b9c-bc5a-6efbf9c13e3f" />
+
+On Hosted Infrastructure,
+   look for the VPC to be protected
+Click on Deploy Protection
+Select the Availability Zones (AZ's) 
+
+<img width="591" alt="image" src="https://github.com/user-attachments/assets/41f7edc6-8f8f-4897-b089-7eab199ea259" />
+
+<img width="538" alt="image" src="https://github.com/user-attachments/assets/3ed522ec-814a-4d9f-95f6-b229071de705" />
+
+On the  Deploy Protection Wizard,
+   Select the following per AZ's:
+Endpoint Name
+CIDR or ID
+Choose CIDR if you want Trend to create the subnet
+Choose ID if you have already created the subnet
+Select Create Endpoint
+
+*The Subnet for the Endpoint must be empty
+
+<img width="551" alt="image" src="https://github.com/user-attachments/assets/853d6120-8409-4880-b682-7dc9e32bc0e0" />
+
+After the deployment is fired, in some minutes one stack per AZ select will pop in your Cloudformation service page.
+
+![image](https://github.com/user-attachments/assets/03faba55-3d0b-490e-8201-1549d34b4027)
+
+After the deployment is completed, the information will be also updated on the Trend Cloud One console
+
+<img width="814" alt="image" src="https://github.com/user-attachments/assets/7e2de712-31f6-4fe5-b2dc-ed71127d5b0d" />
+
+
+
+
+
+
+
+
 
 
 
