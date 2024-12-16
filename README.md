@@ -35,11 +35,14 @@ On the **Integrations** Page
 Look for **Cloud Accounts**
 
 Under Cloud Accounts,
+
  Click on  **+ New**
 
 <img width="675" alt="image" src="https://github.com/user-attachments/assets/d0e93c2c-7e41-4c80-bdea-b68de8a739df" />
 
 A pop-up will appear
+
+<img width="415" alt="image" src="https://github.com/user-attachments/assets/0448ef61-f9e9-4f6c-a68d-fa04d2d36f7b" />
 
 Under **Step 1. Launch Cloud Formation Template**
 
@@ -49,12 +52,12 @@ Under **Step 1. Launch Cloud Formation Template**
   
   On the 3rd item, expand **View Configuration**
 
-  <img width="415" alt="image" src="https://github.com/user-attachments/assets/0448ef61-f9e9-4f6c-a68d-fa04d2d36f7b" />
-  
   **Cloud Sentry** will appear as **On**, click twice on it until it turns into a **gray toggle**.
+  
     * On means, resources will be deployed, but will be deactivated
   
   **Network Security** with Hosted Infrastructure will appear as a **gray toggle**, click on it once to turn it unto a **blue toggle**.
+  
     * Gray toggle means feature is deactivated
     * Blue toggle means feature is activated
   
@@ -73,7 +76,7 @@ To deploy this template you will need the following information:
 
   *If your region is different from us-1, just change the boldened area with your Cloud One region
 
-  You may found your Cloud One ID on the top right corner of your Cloud One tenant.
+  You can find your Cloud One ID on the top right corner of your Cloud One tenant.
 
   <img width="858" alt="image" src="https://github.com/user-attachments/assets/62f890f6-ca4b-4de5-a050-245fe36908ce" />
 
