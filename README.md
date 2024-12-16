@@ -14,7 +14,7 @@ The user utilized to create the Cloud One account will be the "owner" of the Clo
 
 * We recommend you to use a group mail for this step.
 
-* After the account is created, we recommend you to create one account per user that needs to have access to Cloud One
+* After your Cloud One account is created and set up, we recommend you to create one user per administrator that needs to have access to Cloud One.
 
 * You may create as many user may be needed
 
