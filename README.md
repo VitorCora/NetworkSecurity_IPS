@@ -113,7 +113,7 @@ This alias should be a name easily understandable to you and your team
 
 <img width="398" alt="image" src="https://github.com/user-attachments/assets/e42a7144-6f93-411d-94c1-0fd2024e523f" />
 
-Click on **Connect **
+Click on **Connect**
 
 If you Cloud One looks something like the following you are good to go
 
@@ -123,19 +123,24 @@ If you Cloud One looks something like the following you are good to go
 
 Log into Trend Cloud One
 
-Look for the service Network Security
+Look for the **Network Security** service
 
-On Network Security,
- look for Network
+On **Network Security**,
 
-On Network, 
-    look for Hosted Infrastructure
+ look for **Network** (On the black collumn on the left look for the exagon)
 
+On **Network**, 
+
+    look for **Hosted Infrastructure**
+    
 <img width="485" alt="image" src="https://github.com/user-attachments/assets/d5bb8e20-8ae4-4b9c-bc5a-6efbf9c13e3f" />
 
-On Hosted Infrastructure,
-   look for the VPC to be protected
-Click on Deploy Protection
+On the **Hosted Infrastructure** service,
+
+   **search** for the **VPC** to be protected
+   
+Click on **Deploy Protection**
+
 Select the Availability Zones (AZ's) 
 
 <img width="591" alt="image" src="https://github.com/user-attachments/assets/41f7edc6-8f8f-4897-b089-7eab199ea259" />
@@ -143,12 +148,18 @@ Select the Availability Zones (AZ's) 
 <img width="538" alt="image" src="https://github.com/user-attachments/assets/3ed522ec-814a-4d9f-95f6-b229071de705" />
 
 On the  Deploy Protection Wizard,
+
    Select the following per AZ's:
-Endpoint Name
-CIDR or ID
-Choose CIDR if you want Trend to create the subnet
-Choose ID if you have already created the subnet
-Select Create Endpoint
+   
+    - Endpoint Name
+    
+    - CIDR or ID
+
+* Choose **CIDR** if you want Trend to **create the subnet** that will be hosting the Network Security VPC Endpoints
+
+* Choose **ID** if you have already created the **subnet**
+
+Select **Create Endpoint**
 
 *The Subnet for the Endpoint must be empty
 
