@@ -141,25 +141,25 @@ On the **Hosted Infrastructure** service,
    
 Click on **Deploy Protection**
 
-Select the Availability Zones (AZ's) 
-
 <img width="591" alt="image" src="https://github.com/user-attachments/assets/41f7edc6-8f8f-4897-b089-7eab199ea259" />
+
+Select the Availability Zones (AZ's) 
 
 <img width="538" alt="image" src="https://github.com/user-attachments/assets/3ed522ec-814a-4d9f-95f6-b229071de705" />
 
 On the  Deploy Protection Wizard,
 
-   Select the following per AZ's:
+   Do the following per AZ's:
    
-    - Endpoint Name
+    - Choose the Endpoint Name
     
-    - CIDR or ID
+    -Select CIDR or ID
 
 * Choose **CIDR** if you want Trend to **create the subnet** that will be hosting the Network Security VPC Endpoints
 
 * Choose **ID** if you have already created the **subnet**
 
-Select **Create Endpoint**
+Click on **Create Endpoint**
 
 *The Subnet for the Endpoint must be empty
 
